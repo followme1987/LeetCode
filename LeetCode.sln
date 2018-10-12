@@ -7,6 +7,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ValidWordSquare422", "Valid
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ValidWordSquare", "ValidWordSquare\ValidWordSquare.csproj", "{880F4D6F-71B1-4814-899C-3F77EA363974}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "MeetingRooms252", "MeetingRooms252", "{412AC5C0-D136-47A1-8E6C-6FE600571240}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MeetingRooms", "MeetingRooms\MeetingRooms.csproj", "{39B14116-CF8C-4639-B0F9-FE957A77A55A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -17,12 +21,17 @@ Global
 		{880F4D6F-71B1-4814-899C-3F77EA363974}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{880F4D6F-71B1-4814-899C-3F77EA363974}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{880F4D6F-71B1-4814-899C-3F77EA363974}.Release|Any CPU.Build.0 = Release|Any CPU
+		{39B14116-CF8C-4639-B0F9-FE957A77A55A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{39B14116-CF8C-4639-B0F9-FE957A77A55A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{39B14116-CF8C-4639-B0F9-FE957A77A55A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{39B14116-CF8C-4639-B0F9-FE957A77A55A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{880F4D6F-71B1-4814-899C-3F77EA363974} = {EAF1DA86-7D6E-4C4C-A611-1C4CF82B139D}
+		{39B14116-CF8C-4639-B0F9-FE957A77A55A} = {412AC5C0-D136-47A1-8E6C-6FE600571240}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {7486E12C-0629-4CF7-8F04-D7386134EA3D}
