@@ -3,13 +3,17 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.28010.2046
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ValidWordSquare422", "ValidWordSquare422", "{EAF1DA86-7D6E-4C4C-A611-1C4CF82B139D}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "422ValidWordSquare", "422ValidWordSquare", "{EAF1DA86-7D6E-4C4C-A611-1C4CF82B139D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ValidWordSquare", "ValidWordSquare\ValidWordSquare.csproj", "{880F4D6F-71B1-4814-899C-3F77EA363974}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ValidWordSquare", "ValidWordSquare\ValidWordSquare.csproj", "{880F4D6F-71B1-4814-899C-3F77EA363974}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "MeetingRooms252", "MeetingRooms252", "{412AC5C0-D136-47A1-8E6C-6FE600571240}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "252MeetingRooms", "252MeetingRooms", "{412AC5C0-D136-47A1-8E6C-6FE600571240}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MeetingRooms", "MeetingRooms\MeetingRooms.csproj", "{39B14116-CF8C-4639-B0F9-FE957A77A55A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MeetingRooms", "MeetingRooms\MeetingRooms.csproj", "{39B14116-CF8C-4639-B0F9-FE957A77A55A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "867TransposeMatrix", "867TransposeMatrix", "{C5F18385-6F77-4FA2-9B44-DD475DD59AFB}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TransposeMatrix", "TransposeMatrix\TransposeMatrix.csproj", "{E0649C57-2A99-41DD-85DD-A60527B52196}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -25,6 +29,10 @@ Global
 		{39B14116-CF8C-4639-B0F9-FE957A77A55A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{39B14116-CF8C-4639-B0F9-FE957A77A55A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{39B14116-CF8C-4639-B0F9-FE957A77A55A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E0649C57-2A99-41DD-85DD-A60527B52196}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E0649C57-2A99-41DD-85DD-A60527B52196}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E0649C57-2A99-41DD-85DD-A60527B52196}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E0649C57-2A99-41DD-85DD-A60527B52196}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -32,6 +40,7 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{880F4D6F-71B1-4814-899C-3F77EA363974} = {EAF1DA86-7D6E-4C4C-A611-1C4CF82B139D}
 		{39B14116-CF8C-4639-B0F9-FE957A77A55A} = {412AC5C0-D136-47A1-8E6C-6FE600571240}
+		{E0649C57-2A99-41DD-85DD-A60527B52196} = {C5F18385-6F77-4FA2-9B44-DD475DD59AFB}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {7486E12C-0629-4CF7-8F04-D7386134EA3D}
