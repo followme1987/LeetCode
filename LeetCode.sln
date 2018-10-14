@@ -103,6 +103,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "339. Nested List Weight Sum
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NestedListWeightSum", "NestedListWeightSum\NestedListWeightSum.csproj", "{743B0074-CD48-4DC1-AD5E-3069A338DFB1}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "344. Reverse String", "344. Reverse String", "{BA56B1F1-1FD7-4B3F-BBA6-B9092CBCC9BF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReverseString", "ReverseString\ReverseString.csproj", "{32511D35-3EBB-4414-94DB-D73403EDBA4C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -209,6 +213,10 @@ Global
 		{743B0074-CD48-4DC1-AD5E-3069A338DFB1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{743B0074-CD48-4DC1-AD5E-3069A338DFB1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{743B0074-CD48-4DC1-AD5E-3069A338DFB1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{32511D35-3EBB-4414-94DB-D73403EDBA4C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{32511D35-3EBB-4414-94DB-D73403EDBA4C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{32511D35-3EBB-4414-94DB-D73403EDBA4C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{32511D35-3EBB-4414-94DB-D73403EDBA4C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -239,6 +247,7 @@ Global
 		{87D49E2B-F88B-4BCC-8DCF-5462F0ED1EB3} = {4F2A5ABB-4162-499E-9145-68DA9A26CEBF}
 		{1CEB5A7C-D38B-4702-81A3-9CAD21026E47} = {0A32CE0C-AC79-41FA-A8E1-BD87DDE322B0}
 		{743B0074-CD48-4DC1-AD5E-3069A338DFB1} = {A24A19F5-AE30-4D60-9E92-6C35F74BD7C4}
+		{32511D35-3EBB-4414-94DB-D73403EDBA4C} = {BA56B1F1-1FD7-4B3F-BBA6-B9092CBCC9BF}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {7486E12C-0629-4CF7-8F04-D7386134EA3D}
