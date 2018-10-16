@@ -115,11 +115,13 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "412. Fizz Buzz", "412. Fizz
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FizzBuzz", "FizzBuzz\FizzBuzz.csproj", "{97AE615A-45BE-45B8-93A5-C8B54D51C299}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "testConsole", "testConsole\testConsole.csproj", "{9DB758FD-B486-4EF7-A0C6-D695F4013F45}"
-EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "443. String Compression", "443. String Compression", "{E33363ED-75C2-4FDD-B311-F2D75EC0DF06}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StringCompression", "StringCompression\StringCompression.csproj", "{FCBA0D25-B174-4539-B233-E056C1428733}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "20. Valid Parentheses", "20. Valid Parentheses", "{FBA6733E-1690-4BEE-BFB1-4102A542BBE4}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ValidParentheses", "ValidParentheses\ValidParentheses.csproj", "{4F058E48-7879-450B-92FC-B784DCD5A216}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -239,14 +241,14 @@ Global
 		{97AE615A-45BE-45B8-93A5-C8B54D51C299}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{97AE615A-45BE-45B8-93A5-C8B54D51C299}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{97AE615A-45BE-45B8-93A5-C8B54D51C299}.Release|Any CPU.Build.0 = Release|Any CPU
-		{9DB758FD-B486-4EF7-A0C6-D695F4013F45}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{9DB758FD-B486-4EF7-A0C6-D695F4013F45}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{9DB758FD-B486-4EF7-A0C6-D695F4013F45}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{9DB758FD-B486-4EF7-A0C6-D695F4013F45}.Release|Any CPU.Build.0 = Release|Any CPU
 		{FCBA0D25-B174-4539-B233-E056C1428733}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{FCBA0D25-B174-4539-B233-E056C1428733}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FCBA0D25-B174-4539-B233-E056C1428733}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FCBA0D25-B174-4539-B233-E056C1428733}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4F058E48-7879-450B-92FC-B784DCD5A216}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4F058E48-7879-450B-92FC-B784DCD5A216}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4F058E48-7879-450B-92FC-B784DCD5A216}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4F058E48-7879-450B-92FC-B784DCD5A216}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -281,6 +283,7 @@ Global
 		{3AC070FB-B9EA-4A4E-BE15-6F0C5F315524} = {BC23F012-BAC1-4100-9EC8-1D82CD80BD2D}
 		{97AE615A-45BE-45B8-93A5-C8B54D51C299} = {D8B75D3F-57ED-40D8-95C4-367D3C0C6B81}
 		{FCBA0D25-B174-4539-B233-E056C1428733} = {E33363ED-75C2-4FDD-B311-F2D75EC0DF06}
+		{4F058E48-7879-450B-92FC-B784DCD5A216} = {FBA6733E-1690-4BEE-BFB1-4102A542BBE4}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {7486E12C-0629-4CF7-8F04-D7386134EA3D}
