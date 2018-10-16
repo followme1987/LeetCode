@@ -69,53 +69,59 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HammingDistance", "HammingD
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "905. Sort Array By Parity", "905. Sort Array By Parity", "{29D09A9D-BFC4-471E-98DA-ABE66944BA57}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SortArrayByParity", "SortArrayByParity\SortArrayByParity.csproj", "{50A4B96D-BBEF-457A-917E-92553E7A45AD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SortArrayByParity", "SortArrayByParity\SortArrayByParity.csproj", "{50A4B96D-BBEF-457A-917E-92553E7A45AD}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "804. Unique Morse Code Words", "804. Unique Morse Code Words", "{721FBEC1-FB2A-4452-97E6-79261F46B168}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UniqueMorseCodeWords", "UniqueMorseCodeWords\UniqueMorseCodeWords.csproj", "{C945C4CB-69C6-4099-9B18-9108074A9033}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UniqueMorseCodeWords", "UniqueMorseCodeWords\UniqueMorseCodeWords.csproj", "{C945C4CB-69C6-4099-9B18-9108074A9033}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "709. To Lower Case", "709. To Lower Case", "{00FEC2B0-B019-41BA-960B-F5E9255533D8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ToLowerCase", "ToLowerCase\ToLowerCase.csproj", "{47CFABF2-6DB9-4FBE-B95D-952230646660}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ToLowerCase", "ToLowerCase\ToLowerCase.csproj", "{47CFABF2-6DB9-4FBE-B95D-952230646660}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "760. Find Anagram Mappings", "760. Find Anagram Mappings", "{074513F6-B6B5-451F-997B-B401E00883BA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FindAnagramMappings", "FindAnagramMappings\FindAnagramMappings.csproj", "{FE22D6B5-A574-4108-8433-C79E8368C3EB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FindAnagramMappings", "FindAnagramMappings\FindAnagramMappings.csproj", "{FE22D6B5-A574-4108-8433-C79E8368C3EB}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "705. Design HashSet", "705. Design HashSet", "{B34CED6B-6D79-481B-B5A0-AEFF272CD135}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DesignHashSet", "DesignHashSet\DesignHashSet.csproj", "{FD31AB13-E655-4861-BF29-D329C33DAB8B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DesignHashSet", "DesignHashSet\DesignHashSet.csproj", "{FD31AB13-E655-4861-BF29-D329C33DAB8B}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "771. Jewels and Stones", "771. Jewels and Stones", "{E2F80CB4-2701-46BA-81DE-89BF6E77C345}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JewelsAndStones", "JewelsAndStones\JewelsAndStones.csproj", "{60F0EAE0-4C6A-4CFA-8178-A107749C6E4E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "JewelsAndStones", "JewelsAndStones\JewelsAndStones.csproj", "{60F0EAE0-4C6A-4CFA-8178-A107749C6E4E}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "144. Binary Tree Preorder Traversal", "144. Binary Tree Preorder Traversal", "{4F2A5ABB-4162-499E-9145-68DA9A26CEBF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BinaryTreePreorderTraversal", "BinaryTreePreorderTraversal\BinaryTreePreorderTraversal.csproj", "{87D49E2B-F88B-4BCC-8DCF-5462F0ED1EB3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BinaryTreePreorderTraversal", "BinaryTreePreorderTraversal\BinaryTreePreorderTraversal.csproj", "{87D49E2B-F88B-4BCC-8DCF-5462F0ED1EB3}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1. Two Sum", "1. Two Sum", "{0A32CE0C-AC79-41FA-A8E1-BD87DDE322B0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TwoSum", "TwoSum\TwoSum.csproj", "{1CEB5A7C-D38B-4702-81A3-9CAD21026E47}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TwoSum", "TwoSum\TwoSum.csproj", "{1CEB5A7C-D38B-4702-81A3-9CAD21026E47}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "339. Nested List Weight Sum", "339. Nested List Weight Sum", "{A24A19F5-AE30-4D60-9E92-6C35F74BD7C4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NestedListWeightSum", "NestedListWeightSum\NestedListWeightSum.csproj", "{743B0074-CD48-4DC1-AD5E-3069A338DFB1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NestedListWeightSum", "NestedListWeightSum\NestedListWeightSum.csproj", "{743B0074-CD48-4DC1-AD5E-3069A338DFB1}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "344. Reverse String", "344. Reverse String", "{BA56B1F1-1FD7-4B3F-BBA6-B9092CBCC9BF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReverseString", "ReverseString\ReverseString.csproj", "{32511D35-3EBB-4414-94DB-D73403EDBA4C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ReverseString", "ReverseString\ReverseString.csproj", "{32511D35-3EBB-4414-94DB-D73403EDBA4C}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "557. Reverse Words in a String III", "557. Reverse Words in a String III", "{BC23F012-BAC1-4100-9EC8-1D82CD80BD2D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReverseWordsInAStringIII", "ReverseWordsInAStringIII\ReverseWordsInAStringIII.csproj", "{3AC070FB-B9EA-4A4E-BE15-6F0C5F315524}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ReverseWordsInAStringIII", "ReverseWordsInAStringIII\ReverseWordsInAStringIII.csproj", "{3AC070FB-B9EA-4A4E-BE15-6F0C5F315524}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "412. Fizz Buzz", "412. Fizz Buzz", "{D8B75D3F-57ED-40D8-95C4-367D3C0C6B81}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FizzBuzz", "FizzBuzz\FizzBuzz.csproj", "{97AE615A-45BE-45B8-93A5-C8B54D51C299}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FizzBuzz", "FizzBuzz\FizzBuzz.csproj", "{97AE615A-45BE-45B8-93A5-C8B54D51C299}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "testConsole", "testConsole\testConsole.csproj", "{9DB758FD-B486-4EF7-A0C6-D695F4013F45}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "443. String Compression", "443. String Compression", "{E33363ED-75C2-4FDD-B311-F2D75EC0DF06}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StringCompression", "StringCompression\StringCompression.csproj", "{FCBA0D25-B174-4539-B233-E056C1428733}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StringCompressionTest", "StringCompressionTest\StringCompressionTest.csproj", "{749D544F-8B99-4A35-9678-3D852D0BD57D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -239,6 +245,14 @@ Global
 		{9DB758FD-B486-4EF7-A0C6-D695F4013F45}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9DB758FD-B486-4EF7-A0C6-D695F4013F45}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9DB758FD-B486-4EF7-A0C6-D695F4013F45}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FCBA0D25-B174-4539-B233-E056C1428733}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FCBA0D25-B174-4539-B233-E056C1428733}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FCBA0D25-B174-4539-B233-E056C1428733}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FCBA0D25-B174-4539-B233-E056C1428733}.Release|Any CPU.Build.0 = Release|Any CPU
+		{749D544F-8B99-4A35-9678-3D852D0BD57D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{749D544F-8B99-4A35-9678-3D852D0BD57D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{749D544F-8B99-4A35-9678-3D852D0BD57D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{749D544F-8B99-4A35-9678-3D852D0BD57D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -272,6 +286,8 @@ Global
 		{32511D35-3EBB-4414-94DB-D73403EDBA4C} = {BA56B1F1-1FD7-4B3F-BBA6-B9092CBCC9BF}
 		{3AC070FB-B9EA-4A4E-BE15-6F0C5F315524} = {BC23F012-BAC1-4100-9EC8-1D82CD80BD2D}
 		{97AE615A-45BE-45B8-93A5-C8B54D51C299} = {D8B75D3F-57ED-40D8-95C4-367D3C0C6B81}
+		{FCBA0D25-B174-4539-B233-E056C1428733} = {E33363ED-75C2-4FDD-B311-F2D75EC0DF06}
+		{749D544F-8B99-4A35-9678-3D852D0BD57D} = {E33363ED-75C2-4FDD-B311-F2D75EC0DF06}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {7486E12C-0629-4CF7-8F04-D7386134EA3D}
