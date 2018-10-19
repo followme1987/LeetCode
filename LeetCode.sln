@@ -125,15 +125,21 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ValidParentheses", "ValidPa
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "7. Reverse Integer", "7. Reverse Integer", "{75E8515F-847D-4D86-ABE5-CF5E58162278}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReverseInteger", "ReverseInteger\ReverseInteger.csproj", "{45871909-855C-4689-809E-4F83649E0600}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ReverseInteger", "ReverseInteger\ReverseInteger.csproj", "{45871909-855C-4689-809E-4F83649E0600}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReverseIntegerTest", "ReverseIntegerTest\ReverseIntegerTest.csproj", "{CDC04404-59C0-48E6-908A-AE8C0863B7DB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ReverseIntegerTest", "ReverseIntegerTest\ReverseIntegerTest.csproj", "{CDC04404-59C0-48E6-908A-AE8C0863B7DB}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "53. Maxmium Subarray", "53. Maxmium Subarray", "{6CC55686-AB61-4A47-BD30-44B43F159526}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MaxmiumSubarray", "MaxmiumSubarray\MaxmiumSubarray.csproj", "{B65B35AA-7FBB-4D65-B870-5374004E86FC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MaxmiumSubarray", "MaxmiumSubarray\MaxmiumSubarray.csproj", "{B65B35AA-7FBB-4D65-B870-5374004E86FC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MaxmiumSubarrayTest", "MaxmiumSubarrayTest\MaxmiumSubarrayTest.csproj", "{21004D25-ED3D-465B-B130-EBCBB8EC78AB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MaxmiumSubarrayTest", "MaxmiumSubarrayTest\MaxmiumSubarrayTest.csproj", "{21004D25-ED3D-465B-B130-EBCBB8EC78AB}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "754. Reach a Number", "754. Reach a Number", "{5155F75E-52B5-4187-A72D-2D4943C5ECCE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReachANumber", "ReachANumber\ReachANumber.csproj", "{C6E8EF1C-98DA-433C-BB5A-CDF3EC0A8654}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReachANumberTest", "ReachANumberTest\ReachANumberTest.csproj", "{AC765FF0-C593-4106-8709-27B66773E7CE}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -277,6 +283,14 @@ Global
 		{21004D25-ED3D-465B-B130-EBCBB8EC78AB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{21004D25-ED3D-465B-B130-EBCBB8EC78AB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{21004D25-ED3D-465B-B130-EBCBB8EC78AB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C6E8EF1C-98DA-433C-BB5A-CDF3EC0A8654}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C6E8EF1C-98DA-433C-BB5A-CDF3EC0A8654}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C6E8EF1C-98DA-433C-BB5A-CDF3EC0A8654}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C6E8EF1C-98DA-433C-BB5A-CDF3EC0A8654}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AC765FF0-C593-4106-8709-27B66773E7CE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AC765FF0-C593-4106-8709-27B66773E7CE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AC765FF0-C593-4106-8709-27B66773E7CE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AC765FF0-C593-4106-8709-27B66773E7CE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -316,6 +330,8 @@ Global
 		{CDC04404-59C0-48E6-908A-AE8C0863B7DB} = {75E8515F-847D-4D86-ABE5-CF5E58162278}
 		{B65B35AA-7FBB-4D65-B870-5374004E86FC} = {6CC55686-AB61-4A47-BD30-44B43F159526}
 		{21004D25-ED3D-465B-B130-EBCBB8EC78AB} = {6CC55686-AB61-4A47-BD30-44B43F159526}
+		{C6E8EF1C-98DA-433C-BB5A-CDF3EC0A8654} = {5155F75E-52B5-4187-A72D-2D4943C5ECCE}
+		{AC765FF0-C593-4106-8709-27B66773E7CE} = {5155F75E-52B5-4187-A72D-2D4943C5ECCE}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {7486E12C-0629-4CF7-8F04-D7386134EA3D}
