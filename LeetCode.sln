@@ -137,15 +137,21 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MaxmiumSubarrayTest", "Maxm
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "754. Reach a Number", "754. Reach a Number", "{5155F75E-52B5-4187-A72D-2D4943C5ECCE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReachANumber", "ReachANumber\ReachANumber.csproj", "{C6E8EF1C-98DA-433C-BB5A-CDF3EC0A8654}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ReachANumber", "ReachANumber\ReachANumber.csproj", "{C6E8EF1C-98DA-433C-BB5A-CDF3EC0A8654}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReachANumberTest", "ReachANumberTest\ReachANumberTest.csproj", "{AC765FF0-C593-4106-8709-27B66773E7CE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ReachANumberTest", "ReachANumberTest\ReachANumberTest.csproj", "{AC765FF0-C593-4106-8709-27B66773E7CE}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "13. Roman to Integer", "13. Roman to Integer", "{AD7667B6-B975-40AC-8E9E-F5498EE0EAD3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RomanToInteger", "RomanToInteger\RomanToInteger.csproj", "{256EFFBE-527A-4B7C-B0BE-90D03117F919}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RomanToInteger", "RomanToInteger\RomanToInteger.csproj", "{256EFFBE-527A-4B7C-B0BE-90D03117F919}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RomanToIntegerTest", "RomanToIntegerTest\RomanToIntegerTest.csproj", "{84F51DA2-9654-4195-B279-9DFD6EE49FE3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RomanToIntegerTest", "RomanToIntegerTest\RomanToIntegerTest.csproj", "{84F51DA2-9654-4195-B279-9DFD6EE49FE3}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "121. Best Time to Buy and Sell Stock", "121. Best Time to Buy and Sell Stock", "{5EF2DDF7-078D-4BE7-AF83-BCC7E7BAA87E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BestTimeToBuyAndSellStock", "BestTimeToBuyAndSellStock\BestTimeToBuyAndSellStock.csproj", "{3077288C-1814-405E-80A1-0F8B5794A8FE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BestTimeToBuyAndSellStockTest", "BestTimeToBuyAndSellStockTest\BestTimeToBuyAndSellStockTest.csproj", "{F69718B1-EB89-4A70-85E7-C9A6E838512E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -305,6 +311,14 @@ Global
 		{84F51DA2-9654-4195-B279-9DFD6EE49FE3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{84F51DA2-9654-4195-B279-9DFD6EE49FE3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{84F51DA2-9654-4195-B279-9DFD6EE49FE3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3077288C-1814-405E-80A1-0F8B5794A8FE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3077288C-1814-405E-80A1-0F8B5794A8FE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3077288C-1814-405E-80A1-0F8B5794A8FE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3077288C-1814-405E-80A1-0F8B5794A8FE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F69718B1-EB89-4A70-85E7-C9A6E838512E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F69718B1-EB89-4A70-85E7-C9A6E838512E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F69718B1-EB89-4A70-85E7-C9A6E838512E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F69718B1-EB89-4A70-85E7-C9A6E838512E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -348,6 +362,8 @@ Global
 		{AC765FF0-C593-4106-8709-27B66773E7CE} = {5155F75E-52B5-4187-A72D-2D4943C5ECCE}
 		{256EFFBE-527A-4B7C-B0BE-90D03117F919} = {AD7667B6-B975-40AC-8E9E-F5498EE0EAD3}
 		{84F51DA2-9654-4195-B279-9DFD6EE49FE3} = {AD7667B6-B975-40AC-8E9E-F5498EE0EAD3}
+		{3077288C-1814-405E-80A1-0F8B5794A8FE} = {5EF2DDF7-078D-4BE7-AF83-BCC7E7BAA87E}
+		{F69718B1-EB89-4A70-85E7-C9A6E838512E} = {5EF2DDF7-078D-4BE7-AF83-BCC7E7BAA87E}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {7486E12C-0629-4CF7-8F04-D7386134EA3D}
