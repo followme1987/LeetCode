@@ -1,4 +1,5 @@
 using System;
+using MaxmiumSubarray;
 using Xunit;
 
 namespace MaxmiumSubarrayTest
@@ -12,12 +13,13 @@ namespace MaxmiumSubarrayTest
             _maxSubArr = new MaxmiumSubarray.MaxmiumSubarray();
         }
 
-        [Fact]
-        public void MaxSubArray()
+        [Theory]
+        [TestData]
+        public void MaxSubArray(int[] input, int expected)
         {
-           var result = _maxSubArr.MaxSubArray(new[] { -2, -1 });
+           var result = _maxSubArr.MaxSubArray(input);
 
-            Assert.Equal(6,result);
+            Assert.Equal(expected, result);
         }
     }
 }
