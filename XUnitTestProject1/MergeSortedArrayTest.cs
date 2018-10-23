@@ -7,7 +7,7 @@ namespace XUnitTestProject1
         [Fact]
         public void Merge_Test()
         {
-            new MergeSortedArray.MergeSortedArray().Merge(new[] {2, 0}, 1, new[] {1}, 1);
+            new MergeSortedArray.MergeSortedArray().Merge(new[] { 1, 2, 3, 0, 0, 0 }, 3, new[] { 2, 5, 6 }, 3);
         }
     }
 }
