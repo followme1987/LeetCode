@@ -1,6 +1,4 @@
-﻿using System;
-
-namespace MergeTwoSortedLists
+﻿namespace MergeTwoSortedLists
 {
     public class MergeTwoSortedListsCls
     {
@@ -25,9 +23,12 @@ namespace MergeTwoSortedLists
 
     public class ListNode
     {
-        public int val;
         public ListNode next;
-        public ListNode(int x) { val = x; }
-    }
+        public int val;
 
+        public ListNode(int x)
+        {
+            val = x;
+        }
+    }
 }

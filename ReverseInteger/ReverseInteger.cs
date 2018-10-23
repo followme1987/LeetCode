@@ -28,13 +28,9 @@ namespace ReverseInteger
 
             var resultString = new string(intCharArr);
 
-            if (int.TryParse(resultString, out var resultInt))
-            {
-                return x < 0 ? 0 - resultInt : resultInt;
-            }
+            if (int.TryParse(resultString, out var resultInt)) return x < 0 ? 0 - resultInt : resultInt;
 
             return 0;
-
         }
     }
 }

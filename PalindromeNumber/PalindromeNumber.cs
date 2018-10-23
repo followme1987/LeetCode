@@ -1,5 +1,4 @@
 ﻿using System;
-using System.Linq;
 
 namespace PalindromeNumber
 {
@@ -7,7 +6,6 @@ namespace PalindromeNumber
     {
         public bool IsPalindrome(int x)
         {
-
             if (x < 0)
                 return false;
             if (x < 10)

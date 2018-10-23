@@ -1,5 +1,4 @@
-﻿using System;
-using System.Text;
+﻿using System.Text;
 
 namespace LicenseKeyFormatting
 {
@@ -8,18 +7,12 @@ namespace LicenseKeyFormatting
         public string LicenseKeyFormatting(string S, int K)
         {
             var sb = new StringBuilder(S.ToUpper());
-            var newSb = sb.Replace("-",string.Empty);
+            var newSb = sb.Replace("-", string.Empty);
 
-            for (var i = newSb.Length - 1; i > K -1; i -= K)
-            {
+            for (var i = newSb.Length - 1; i > K - 1; i -= K) newSb = newSb.Insert(i - K + 1, "-");
 
-                newSb = newSb.Insert(i - K + 1, "-");
-                
-            }
 
-           
             return newSb.ToString();
-
         }
     }
 }

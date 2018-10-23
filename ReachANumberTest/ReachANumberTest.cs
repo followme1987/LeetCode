@@ -5,6 +5,7 @@ namespace ReachANumberTest
     public class ReachANumberTest
     {
         private readonly ReachANumber.ReachANumber _ra;
+
         public ReachANumberTest()
         {
             _ra = new ReachANumber.ReachANumber();

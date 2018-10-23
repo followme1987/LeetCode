@@ -1,4 +1,3 @@
-using System;
 using Xunit;
 
 namespace XUnitTestProject1
@@ -8,9 +7,7 @@ namespace XUnitTestProject1
         [Fact]
         public void Merge_Test()
         {
-            new MergeSortedArray.MergeSortedArray().Merge(new int[]{ 2, 0 },1,new int[]{ 1 }, 1 );
-
-           
+            new MergeSortedArray.MergeSortedArray().Merge(new[] {2, 0}, 1, new[] {1}, 1);
         }
     }
 }

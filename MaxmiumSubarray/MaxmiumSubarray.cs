@@ -1,6 +1,4 @@
 ﻿using System;
-using System.Diagnostics;
-using System.Linq;
 
 namespace MaxmiumSubarray
 {
@@ -16,7 +14,7 @@ namespace MaxmiumSubarray
                 sum += nums[i];
 
                 if (sum < 0)
-                {                   
+                {
                     sum = 0;
                     max = Math.Max(nums[i], max);
                 }
@@ -24,7 +22,6 @@ namespace MaxmiumSubarray
                 {
                     max = Math.Max(sum, max);
                 }
-                
             }
 
             return max;

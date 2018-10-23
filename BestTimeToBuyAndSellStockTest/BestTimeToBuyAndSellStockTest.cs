@@ -1,4 +1,3 @@
-using System;
 using Xunit;
 
 namespace BestTimeToBuyAndSellStockTest
@@ -14,7 +13,6 @@ namespace BestTimeToBuyAndSellStockTest
             var result = btbs.MaxProfit(input);
 
             Assert.Equal(expected, result);
-
         }
     }
 }

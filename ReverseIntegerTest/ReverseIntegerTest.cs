@@ -1,11 +1,11 @@
 using Xunit;
 
-
 namespace ReverseIntegerTest
 {
     public class ReverseIntegerTest
     {
         private readonly ReverseInteger.ReverseInteger _reverseInteger;
+
         public ReverseIntegerTest()
         {
             _reverseInteger = new ReverseInteger.ReverseInteger();
@@ -17,7 +17,7 @@ namespace ReverseIntegerTest
         {
             var returned = _reverseInteger.Reverse(input);
 
-            Assert.Equal(expected,returned);
+            Assert.Equal(expected, returned);
         }
     }
 }

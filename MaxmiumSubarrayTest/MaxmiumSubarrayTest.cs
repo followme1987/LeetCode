@@ -1,4 +1,3 @@
-using System;
 using MaxmiumSubarray;
 using Xunit;
 
@@ -17,7 +16,7 @@ namespace MaxmiumSubarrayTest
         [TestData]
         public void MaxSubArray(int[] input, int expected)
         {
-           var result = _maxSubArr.MaxSubArray(input);
+            var result = _maxSubArr.MaxSubArray(input);
 
             Assert.Equal(expected, result);
         }

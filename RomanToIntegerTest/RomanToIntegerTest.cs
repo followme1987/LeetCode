@@ -1,4 +1,3 @@
-using System;
 using Xunit;
 
 namespace RomanToIntegerTest
@@ -11,14 +10,14 @@ namespace RomanToIntegerTest
         {
             _ri = new RomanToInteger.RomanToInteger();
         }
+
         [Theory]
         [TestData]
         public void RomanToInt_Test(string input, int expected)
         {
             var result = _ri.RomanToInt(input);
 
-            Assert.Equal(expected,result);
-
+            Assert.Equal(expected, result);
         }
     }
 }

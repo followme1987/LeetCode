@@ -11,10 +11,8 @@ namespace ReachANumber
 
             while (sum < Math.Abs(target))
             {
-
                 step++;
                 sum += step;
-
             }
 
             if (sum == target || (sum - target) % 2 == 0)
@@ -24,10 +22,7 @@ namespace ReachANumber
             {
                 step++;
                 sum += step;
-                if ((sum - target) % 2 == 0)
-                {
-                    return step;
-                }
+                if ((sum - target) % 2 == 0) return step;
             }
         }
     }
