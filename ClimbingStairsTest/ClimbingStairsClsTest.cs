@@ -1,4 +1,3 @@
-using System;
 using ClimbingStairs;
 using Xunit;
 
@@ -12,7 +11,7 @@ namespace ClimbingStairsTest
         {
             var result = new ClimbingStairsCls().ClimbStairs(input);
 
-            Assert.Equal(expected,result);
+            Assert.Equal(expected, result);
         }
     }
 }

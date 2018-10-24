@@ -1,4 +1,3 @@
-using MaxmiumSubarray;
 using Xunit;
 
 namespace MaxmiumSubarrayTest

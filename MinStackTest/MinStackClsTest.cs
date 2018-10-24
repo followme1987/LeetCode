@@ -1,4 +1,4 @@
-using System;
+using MinStack;
 using Xunit;
 
 namespace MinStackTest
@@ -8,7 +8,7 @@ namespace MinStackTest
         [Fact]
         public void MinStack_Test()
         {
-            var stack = new MinStack.MinStackCls();
+            var stack = new MinStackCls();
             stack.Push(-2);
             stack.Push(0);
             stack.Push(-3);
@@ -23,13 +23,13 @@ namespace MinStackTest
             stack.Push(-3);
             stack.Push(-3);
             stack.Push(-3);
-            stack.Push(-3);           
+            stack.Push(-3);
             stack.Pop();
-           var result = stack.Top(); 
-           var result2 = stack.GetMin();
+            var result = stack.Top();
+            var result2 = stack.GetMin();
 
-            Assert.Equal(-3,result);
-            Assert.Equal(-3,result2);
+            Assert.Equal(-3, result);
+            Assert.Equal(-3, result2);
         }
     }
 }
