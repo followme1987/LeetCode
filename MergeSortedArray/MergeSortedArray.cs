@@ -1,6 +1,4 @@
-﻿using System;
-
-namespace MergeSortedArray
+﻿namespace MergeSortedArray
 {
     public class MergeSortedArray
     {
@@ -11,26 +9,20 @@ namespace MergeSortedArray
 
             var index = m + n - 1;
 
-            if (m == 0 && n != 0)
-            {
-                nums1[0] = nums2[0];
-            }
+            if (m == 0 && n != 0) nums1[0] = nums2[0];
             while (n > 0)
             {
                 if (m > 0 && nums2[n - 1] >= nums1[m - 1])
                 {
                     nums1[index] = nums2[n - 1];
                     n--;
-
                 }
                 else
                 {
-
                     if (m == 0)
                     {
                         nums1[index] = nums2[n - 1];
                         n--;
-
                     }
                     else
                     {
@@ -40,9 +32,7 @@ namespace MergeSortedArray
                 }
 
                 index--;
-
             }
-
         }
     }
 }

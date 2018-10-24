@@ -2,7 +2,7 @@
 using System.Reflection;
 using Xunit.Sdk;
 
-namespace MaxmiumSubarray
+namespace MaxmiumSubarrayTest
 {
     internal class TestDataAttribute : DataAttribute
     {

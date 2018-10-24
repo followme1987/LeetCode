@@ -1,7 +1,4 @@
-﻿using System;
-using System.Linq;
-
-namespace MoveZeros
+﻿namespace MoveZeros
 {
     public class MoveZeros
     {
@@ -9,21 +6,12 @@ namespace MoveZeros
         {
             var count = 0;
             for (var i = 0; i < nums.Length; i++)
-            {
                 if (nums[i] == 0)
-                {
                     count++;
-                }
                 else
-                {
                     nums[i - count] = nums[i];
-                }
-            }
 
-            for (var j = nums.Length - 1; j >= nums.Length -count; j--)
-            {
-                nums[j] = 0;
-            }
+            for (var j = nums.Length - 1; j >= nums.Length - count; j--) nums[j] = 0;
             //var zeroIndex = Array.IndexOf(nums, 0);
             //if (zeroIndex > -1)
             //{
@@ -38,7 +26,6 @@ namespace MoveZeros
 
             //    }
             //}
-           
         }
     }
 }
