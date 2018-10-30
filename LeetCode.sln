@@ -199,27 +199,33 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ClimbingStairsTest", "Climb
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "204. Count Primes", "204. Count Primes", "{289C61A4-11CD-4F70-AC6E-37B6FAE531CD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CountPrimes", "CountPrimes\CountPrimes.csproj", "{0D471BFA-48F6-4F2C-B0C9-8E1362053ACF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CountPrimes", "CountPrimes\CountPrimes.csproj", "{0D471BFA-48F6-4F2C-B0C9-8E1362053ACF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CountPrimesTest", "CountPrimesTest\CountPrimesTest.csproj", "{E9DE2905-AA01-4280-BC75-5EF4903CD291}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CountPrimesTest", "CountPrimesTest\CountPrimesTest.csproj", "{E9DE2905-AA01-4280-BC75-5EF4903CD291}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "67. Add Binary", "67. Add Binary", "{C606A18E-9386-423A-9838-7F6C5BA720BE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AddBinary", "AddBinary\AddBinary.csproj", "{65B78003-BACE-4833-BB60-4D7EB2AF2266}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AddBinary", "AddBinary\AddBinary.csproj", "{65B78003-BACE-4833-BB60-4D7EB2AF2266}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AddBinaryTest", "AddBinaryTest\AddBinaryTest.csproj", "{4298FFB0-2C1E-46C9-A7B7-A213DED2BB44}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AddBinaryTest", "AddBinaryTest\AddBinaryTest.csproj", "{4298FFB0-2C1E-46C9-A7B7-A213DED2BB44}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "387. First Unique Character in a String", "387. First Unique Character in a String", "{21790E7C-6862-4F8D-8F1A-5889E93772E4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FirstUniqueCharacter", "FirstUniqueCharacter\FirstUniqueCharacter.csproj", "{1F9BBFF1-DD6F-4617-88E1-F45AD2B41D41}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FirstUniqueCharacter", "FirstUniqueCharacter\FirstUniqueCharacter.csproj", "{1F9BBFF1-DD6F-4617-88E1-F45AD2B41D41}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FirstUniqueCharacterTest", "FirstUniqueCharacterTest\FirstUniqueCharacterTest.csproj", "{08B752C1-5427-4F77-933E-CE26B5FF5DFC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FirstUniqueCharacterTest", "FirstUniqueCharacterTest\FirstUniqueCharacterTest.csproj", "{08B752C1-5427-4F77-933E-CE26B5FF5DFC}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "258. Add Digits", "258. Add Digits", "{AE5E15BF-312C-4B2F-A310-B68B99F501C0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AddDigits", "AddDigits\AddDigits.csproj", "{6BFD6A8F-A934-41B4-B28C-55A2F80A9E35}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AddDigits", "AddDigits\AddDigits.csproj", "{6BFD6A8F-A934-41B4-B28C-55A2F80A9E35}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AddDigitsTest", "AddDigitsTest\AddDigitsTest.csproj", "{DB2B52FE-DC67-4DB7-83A5-A1EBF8DE1DC6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AddDigitsTest", "AddDigitsTest\AddDigitsTest.csproj", "{DB2B52FE-DC67-4DB7-83A5-A1EBF8DE1DC6}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "205. Isomorphic Strings", "205. Isomorphic Strings", "{D62FDAA4-0330-4A6B-8907-D4569B089DAA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IsomorphicStrings", "IsomorphicStrings\IsomorphicStrings.csproj", "{298B98C9-774A-4AB9-A7A8-1C220A6AEAE3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IsomorphicStringsTest", "IsomorphicStringsTest\IsomorphicStringsTest.csproj", "{11319E36-FB71-4ADB-B298-367CCA77A92D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -471,6 +477,14 @@ Global
 		{DB2B52FE-DC67-4DB7-83A5-A1EBF8DE1DC6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DB2B52FE-DC67-4DB7-83A5-A1EBF8DE1DC6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DB2B52FE-DC67-4DB7-83A5-A1EBF8DE1DC6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{298B98C9-774A-4AB9-A7A8-1C220A6AEAE3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{298B98C9-774A-4AB9-A7A8-1C220A6AEAE3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{298B98C9-774A-4AB9-A7A8-1C220A6AEAE3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{298B98C9-774A-4AB9-A7A8-1C220A6AEAE3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{11319E36-FB71-4ADB-B298-367CCA77A92D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{11319E36-FB71-4ADB-B298-367CCA77A92D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{11319E36-FB71-4ADB-B298-367CCA77A92D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{11319E36-FB71-4ADB-B298-367CCA77A92D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -537,6 +551,8 @@ Global
 		{08B752C1-5427-4F77-933E-CE26B5FF5DFC} = {21790E7C-6862-4F8D-8F1A-5889E93772E4}
 		{6BFD6A8F-A934-41B4-B28C-55A2F80A9E35} = {AE5E15BF-312C-4B2F-A310-B68B99F501C0}
 		{DB2B52FE-DC67-4DB7-83A5-A1EBF8DE1DC6} = {AE5E15BF-312C-4B2F-A310-B68B99F501C0}
+		{298B98C9-774A-4AB9-A7A8-1C220A6AEAE3} = {D62FDAA4-0330-4A6B-8907-D4569B089DAA}
+		{11319E36-FB71-4ADB-B298-367CCA77A92D} = {D62FDAA4-0330-4A6B-8907-D4569B089DAA}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {7486E12C-0629-4CF7-8F04-D7386134EA3D}
