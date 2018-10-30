@@ -1,4 +1,3 @@
-using System;
 using Xunit;
 
 namespace IsomorphicStringsTest
@@ -11,7 +10,7 @@ namespace IsomorphicStringsTest
         {
             var result = new IsomorphicStrings.IsomorphicStrings().IsIsomorphic(@base, input);
 
-            Assert.Equal(expected,result);
+            Assert.Equal(expected, result);
         }
     }
 }

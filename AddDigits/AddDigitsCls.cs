@@ -1,6 +1,4 @@
-﻿using System;
-
-namespace AddDigits
+﻿namespace AddDigits
 {
     public class AddDigitsCls
     {

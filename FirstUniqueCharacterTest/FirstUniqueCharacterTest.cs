@@ -1,4 +1,3 @@
-using System;
 using Xunit;
 
 namespace FirstUniqueCharacterTest
@@ -11,7 +10,7 @@ namespace FirstUniqueCharacterTest
         {
             var result = new FirstUniqueCharacter.FirstUniqueCharacter().FirstUniqChar(input);
 
-            Assert.Equal(expected,result);
+            Assert.Equal(expected, result);
         }
     }
 }

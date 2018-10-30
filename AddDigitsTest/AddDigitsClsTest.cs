@@ -1,4 +1,4 @@
-using System;
+using AddDigits;
 using Xunit;
 
 namespace AddDigitsTest
@@ -8,7 +8,7 @@ namespace AddDigitsTest
         [Fact]
         public void AddDigits_Test()
         {
-            var result = new AddDigits.AddDigitsCls().AddDigits(638);
+            var result = new AddDigitsCls().AddDigits(638);
 
             Assert.Equal(8, result);
         }
