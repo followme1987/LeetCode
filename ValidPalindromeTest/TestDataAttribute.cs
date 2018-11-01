@@ -21,7 +21,9 @@ namespace ValidPalindromeTest
             yield return new object[]{ "aa", true};
             yield return new object[]{ "ab", false};
             yield return new object[] { "0P", false };
-             
+            yield return new object[] { "0P0", true };
+            yield return new object[] { "a.", true };
+
         }
     }
 }
