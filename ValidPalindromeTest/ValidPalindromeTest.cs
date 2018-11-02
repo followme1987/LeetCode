@@ -1,4 +1,3 @@
-using System;
 using Xunit;
 
 namespace ValidPalindromeTest
@@ -11,7 +10,7 @@ namespace ValidPalindromeTest
         {
             var result = new ValidPalindrome.ValidPalindrome().IsPalindrome(input);
 
-            Assert.Equal(expected,result);
+            Assert.Equal(expected, result);
         }
     }
 }
