@@ -7,7 +7,7 @@ namespace ValidParentheses
         public bool IsValid(string s)
         {
             var stack = new Stack<int>();
-            var dic = new Dictionary<char, int> {{'(', 1}, {'{', 2}, {'[', 3}, {')', -1}, {'}', -2}, {']', -3}};
+            var dic = new Dictionary<char, char> { { ')', '(' }, { '}', '{' }, { ']', '[' } };
 
             if (s.Equals(""))
                 return true;
@@ -15,15 +15,19 @@ namespace ValidParentheses
             var charArr = s.ToCharArray();
 
             for (var i = 0; i < charArr.Length; i++)
-                if (dic[charArr[i]] > 0)
+            {
+                if (dic.ContainsKey(charArr[i]))
                 {
-                    stack.Push(dic[charArr[i]]);
+                    if (stack.Count == 0 || !stack.Pop().Equals(dic[charArr[i]]))
+                    {
+                        return false;
+                    }
                 }
                 else
                 {
-                    if (stack.Count == 0 || dic[charArr[i]] + stack.Pop() != 0)
-                        return false;
+                    stack.Push(charArr[i]);
                 }
+            }
 
             return stack.Count == 0;
         }
