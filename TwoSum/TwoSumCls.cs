@@ -1,18 +1,35 @@
-﻿namespace TwoSum
+﻿using System.Collections.Generic;
+
+namespace TwoSum
 {
     public class TwoSumCls
     {
         public int[] TwoSum(int[] nums, int target)
         {
-            for (var i = 0; i < nums.Length - 1; i++)
-            for (var j = i + 1; j < nums.Length; j++)
-                if (nums[i] + nums[j] == target)
-                {
-                    int[] result = {i, j};
-                    return result;
-                }
+            if (nums == null || nums.Length == 0 || nums.Length == 1)
+            {
+                return new int[] { };
+            }
 
-            return null;
+            var dic = new Dictionary<int, int>();
+
+            for (var i = 0; i < nums.Length; i++)
+            {
+                var currentNum = nums[i];
+
+                var matchNum = target - currentNum;
+
+                if (dic.ContainsKey(matchNum))
+                {
+                    return new int[2] { dic[matchNum], i };
+                }
+                if (!dic.ContainsKey(currentNum))
+                {
+                    dic.Add(currentNum, i);
+                }
+            }
+
+            return new int[] { };
         }
     }
 }
