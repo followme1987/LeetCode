@@ -5,7 +5,7 @@ namespace KClosestPointsToOrigin
     public class KClosestPointsToOriginCls
     {
         public int[][] KClosest(int[][] points, int K)
-        { 
+        {
             var arr = new int[points.Length];
 
             var resultArray = new int[K][];

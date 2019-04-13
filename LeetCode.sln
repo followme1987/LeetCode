@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 15
-VisualStudioVersion = 15.0.28307.136
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.28803.156
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "422.ValidWordSquare", "422.ValidWordSquare", "{EAF1DA86-7D6E-4C4C-A611-1C4CF82B139D}"
 EndProject
@@ -273,15 +273,21 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LinkedListCycle", "LinkedLi
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "22. Generate Parentheses", "22. Generate Parentheses", "{CA705310-291B-4EF4-96EF-51E1D9D5AC8C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GenerateParentheses", "GenerateParentheses\GenerateParentheses.csproj", "{80ED3B71-0016-45DF-8AE3-9642397160BC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GenerateParentheses", "GenerateParentheses\GenerateParentheses.csproj", "{80ED3B71-0016-45DF-8AE3-9642397160BC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GenerateParenthesesClsTest", "GenerateParenthesesClsTest\GenerateParenthesesClsTest.csproj", "{914E583B-39BB-433C-A50D-3B8FD78E7EF9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GenerateParenthesesClsTest", "GenerateParenthesesClsTest\GenerateParenthesesClsTest.csproj", "{914E583B-39BB-433C-A50D-3B8FD78E7EF9}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "73. Set Matrix Zeroes", "73. Set Matrix Zeroes", "{BB2F2B13-86BC-4D31-96D7-3D620E67FEC9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SetMatrixZeroes", "SetMatrixZeroes\SetMatrixZeroes.csproj", "{E0F8DC0C-E192-4457-A07C-30D6E0151EDC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SetMatrixZeroes", "SetMatrixZeroes\SetMatrixZeroes.csproj", "{E0F8DC0C-E192-4457-A07C-30D6E0151EDC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SetMatrixZeroesTest", "SetMatrixZeroesTest\SetMatrixZeroesTest.csproj", "{639C7F5D-1872-4DBA-A291-24FD8054A83A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SetMatrixZeroesTest", "SetMatrixZeroesTest\SetMatrixZeroesTest.csproj", "{639C7F5D-1872-4DBA-A291-24FD8054A83A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "26. Remove Duplicates from Sorted Array", "26. Remove Duplicates from Sorted Array", "{2AA21779-613C-49BB-A099-12239ACE1E7A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RemoveDuplicatesFromSortedArray", "RmoveDuplicatesFromSortedArray\RemoveDuplicatesFromSortedArray.csproj", "{4D1159BA-4B87-49D9-B7C8-B48BC5502661}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RemoveDuplicatesFromSortedArrayTest", "RmoveDuplicatesFromSortedArrayTest\RemoveDuplicatesFromSortedArrayTest.csproj", "{918B0F61-6B58-4640-BCEB-24EC29CCEB7B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -617,6 +623,14 @@ Global
 		{639C7F5D-1872-4DBA-A291-24FD8054A83A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{639C7F5D-1872-4DBA-A291-24FD8054A83A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{639C7F5D-1872-4DBA-A291-24FD8054A83A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4D1159BA-4B87-49D9-B7C8-B48BC5502661}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4D1159BA-4B87-49D9-B7C8-B48BC5502661}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4D1159BA-4B87-49D9-B7C8-B48BC5502661}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4D1159BA-4B87-49D9-B7C8-B48BC5502661}.Release|Any CPU.Build.0 = Release|Any CPU
+		{918B0F61-6B58-4640-BCEB-24EC29CCEB7B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{918B0F61-6B58-4640-BCEB-24EC29CCEB7B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{918B0F61-6B58-4640-BCEB-24EC29CCEB7B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{918B0F61-6B58-4640-BCEB-24EC29CCEB7B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -704,6 +718,8 @@ Global
 		{914E583B-39BB-433C-A50D-3B8FD78E7EF9} = {CA705310-291B-4EF4-96EF-51E1D9D5AC8C}
 		{E0F8DC0C-E192-4457-A07C-30D6E0151EDC} = {BB2F2B13-86BC-4D31-96D7-3D620E67FEC9}
 		{639C7F5D-1872-4DBA-A291-24FD8054A83A} = {BB2F2B13-86BC-4D31-96D7-3D620E67FEC9}
+		{4D1159BA-4B87-49D9-B7C8-B48BC5502661} = {2AA21779-613C-49BB-A099-12239ACE1E7A}
+		{918B0F61-6B58-4640-BCEB-24EC29CCEB7B} = {2AA21779-613C-49BB-A099-12239ACE1E7A}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {7486E12C-0629-4CF7-8F04-D7386134EA3D}
