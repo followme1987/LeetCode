@@ -293,7 +293,13 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "414. Third Maximum Number",
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ThirdMaximumNumber", "ThirdMaximumNumber\ThirdMaximumNumber.csproj", "{5970AF3B-17C0-4F7A-B747-37D795865D34}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ThirdMaximumNumberTest", "ThirdMaximumNumberTest\ThirdMaximumNumberTest.csproj", "{70648202-B43C-410E-999A-FDD3FDAC3367}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ThirdMaximumNumberTest", "ThirdMaximumNumberTest\ThirdMaximumNumberTest.csproj", "{70648202-B43C-410E-999A-FDD3FDAC3367}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "122. Best Time to Buy and Sell Stock II", "122. Best Time to Buy and Sell Stock II", "{804F5A61-8013-4FCB-B0E0-C2927843CF69}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BestTimeToBuyAndSellStockII", "BestTimeToBuyAndSellStockII\BestTimeToBuyAndSellStockII.csproj", "{2A00727C-15BE-4B5F-A329-B9B0FE66D899}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BestTimeToBuyAndSellStockIiClsTest", "BestTimeToBuyAndSellStockIiClsTest\BestTimeToBuyAndSellStockIiClsTest.csproj", "{B75B0BF3-7AF7-4C7A-9BB7-F649F2544D00}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -645,6 +651,14 @@ Global
 		{70648202-B43C-410E-999A-FDD3FDAC3367}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{70648202-B43C-410E-999A-FDD3FDAC3367}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{70648202-B43C-410E-999A-FDD3FDAC3367}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2A00727C-15BE-4B5F-A329-B9B0FE66D899}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2A00727C-15BE-4B5F-A329-B9B0FE66D899}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2A00727C-15BE-4B5F-A329-B9B0FE66D899}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2A00727C-15BE-4B5F-A329-B9B0FE66D899}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B75B0BF3-7AF7-4C7A-9BB7-F649F2544D00}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B75B0BF3-7AF7-4C7A-9BB7-F649F2544D00}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B75B0BF3-7AF7-4C7A-9BB7-F649F2544D00}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B75B0BF3-7AF7-4C7A-9BB7-F649F2544D00}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -736,6 +750,8 @@ Global
 		{918B0F61-6B58-4640-BCEB-24EC29CCEB7B} = {2AA21779-613C-49BB-A099-12239ACE1E7A}
 		{5970AF3B-17C0-4F7A-B747-37D795865D34} = {C565C0DD-E5D8-4A3C-A450-A6509ABB125C}
 		{70648202-B43C-410E-999A-FDD3FDAC3367} = {C565C0DD-E5D8-4A3C-A450-A6509ABB125C}
+		{2A00727C-15BE-4B5F-A329-B9B0FE66D899} = {804F5A61-8013-4FCB-B0E0-C2927843CF69}
+		{B75B0BF3-7AF7-4C7A-9BB7-F649F2544D00} = {804F5A61-8013-4FCB-B0E0-C2927843CF69}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {7486E12C-0629-4CF7-8F04-D7386134EA3D}
