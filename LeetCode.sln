@@ -285,9 +285,15 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SetMatrixZeroesTest", "SetM
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "26. Remove Duplicates from Sorted Array", "26. Remove Duplicates from Sorted Array", "{2AA21779-613C-49BB-A099-12239ACE1E7A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RemoveDuplicatesFromSortedArray", "RmoveDuplicatesFromSortedArray\RemoveDuplicatesFromSortedArray.csproj", "{4D1159BA-4B87-49D9-B7C8-B48BC5502661}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RemoveDuplicatesFromSortedArray", "RmoveDuplicatesFromSortedArray\RemoveDuplicatesFromSortedArray.csproj", "{4D1159BA-4B87-49D9-B7C8-B48BC5502661}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RemoveDuplicatesFromSortedArrayTest", "RmoveDuplicatesFromSortedArrayTest\RemoveDuplicatesFromSortedArrayTest.csproj", "{918B0F61-6B58-4640-BCEB-24EC29CCEB7B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RemoveDuplicatesFromSortedArrayTest", "RmoveDuplicatesFromSortedArrayTest\RemoveDuplicatesFromSortedArrayTest.csproj", "{918B0F61-6B58-4640-BCEB-24EC29CCEB7B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "414. Third Maximum Number", "414. Third Maximum Number", "{C565C0DD-E5D8-4A3C-A450-A6509ABB125C}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ThirdMaximumNumber", "ThirdMaximumNumber\ThirdMaximumNumber.csproj", "{5970AF3B-17C0-4F7A-B747-37D795865D34}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ThirdMaximumNumberTest", "ThirdMaximumNumberTest\ThirdMaximumNumberTest.csproj", "{70648202-B43C-410E-999A-FDD3FDAC3367}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -631,6 +637,14 @@ Global
 		{918B0F61-6B58-4640-BCEB-24EC29CCEB7B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{918B0F61-6B58-4640-BCEB-24EC29CCEB7B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{918B0F61-6B58-4640-BCEB-24EC29CCEB7B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5970AF3B-17C0-4F7A-B747-37D795865D34}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5970AF3B-17C0-4F7A-B747-37D795865D34}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5970AF3B-17C0-4F7A-B747-37D795865D34}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5970AF3B-17C0-4F7A-B747-37D795865D34}.Release|Any CPU.Build.0 = Release|Any CPU
+		{70648202-B43C-410E-999A-FDD3FDAC3367}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{70648202-B43C-410E-999A-FDD3FDAC3367}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{70648202-B43C-410E-999A-FDD3FDAC3367}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{70648202-B43C-410E-999A-FDD3FDAC3367}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -720,6 +734,8 @@ Global
 		{639C7F5D-1872-4DBA-A291-24FD8054A83A} = {BB2F2B13-86BC-4D31-96D7-3D620E67FEC9}
 		{4D1159BA-4B87-49D9-B7C8-B48BC5502661} = {2AA21779-613C-49BB-A099-12239ACE1E7A}
 		{918B0F61-6B58-4640-BCEB-24EC29CCEB7B} = {2AA21779-613C-49BB-A099-12239ACE1E7A}
+		{5970AF3B-17C0-4F7A-B747-37D795865D34} = {C565C0DD-E5D8-4A3C-A450-A6509ABB125C}
+		{70648202-B43C-410E-999A-FDD3FDAC3367} = {C565C0DD-E5D8-4A3C-A450-A6509ABB125C}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {7486E12C-0629-4CF7-8F04-D7386134EA3D}
