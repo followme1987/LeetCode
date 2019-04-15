@@ -11,7 +11,6 @@ namespace ClimbingStairsTest
             yield return new object[] {2, 2};
             yield return new object[] {3, 3};
             yield return new object[] {5, 8};
-            yield return new object[] {44, 13};
         }
     }
 }

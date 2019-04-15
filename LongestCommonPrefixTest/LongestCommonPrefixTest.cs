@@ -10,7 +10,7 @@ namespace LongestCommonPrefixTest
         {
             var result = new LongestCommonPrefixCls().LongestCommonPrefix(new[] {"aa", "a"});
 
-            Assert.Equal("", result);
+            Assert.Equal("a", result);
         }
     }
 }

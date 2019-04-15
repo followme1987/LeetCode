@@ -15,7 +15,7 @@ namespace CountPrimesTest
             yield return new object[] {10000, 1229};
             yield return new object[] {12, 5};
             yield return new object[] {499979, 41537};
-            yield return new object[] {999983, 41537};
+            yield return new object[] {999983, 78497};
         }
     }
 }
