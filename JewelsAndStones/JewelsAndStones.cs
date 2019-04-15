@@ -1,4 +1,5 @@
-﻿using System.Linq;
+﻿using System.Collections.Generic;
+using System.Linq;
 
 namespace JewelsAndStones
 {
@@ -6,18 +7,30 @@ namespace JewelsAndStones
     {
         public int NumJewelsInStones(string J, string S)
         {
-            var list = S.ToList();
+            var dic = new Dictionary<char, int>();
 
-            var arr = J.ToArray();
+            foreach (var jewel in J)
+            {
+                if (!dic.ContainsKey(jewel))
+                    dic.Add(jewel, 0);
+            }
 
-            var count = 0;
+            foreach (var stone in S)
+            {
+                if (dic.ContainsKey(stone))
+                {
+                    dic[stone]++;
+                }
+            }
 
-            foreach (var ch in arr)
-            foreach (var item in list)
-                if (ch.Equals(item))
-                    count++;
+            var sum = 0;
 
-            return count;
+            foreach (var d in dic)
+            {
+                sum += d.Value;
+            }
+
+            return sum;
         }
     }
 }

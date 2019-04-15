@@ -30,7 +30,7 @@ namespace ReverseLinkedList
 
         public ListNode ReverseList(ListNode head)
         {
-            if (head.next == null || head == null) return head;
+            if (head?.next == null) return head;
             var p = ReverseList(head.next);
             head.next.next = head;
             head.next = null;
