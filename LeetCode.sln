@@ -327,13 +327,19 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MaximumDepthOfBinaryTree", 
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "101. Symmetric Tree", "101. Symmetric Tree", "{135C34DB-02EA-4ABA-8116-48738AF2D387}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SymmetricTree", "SymmetricTree\SymmetricTree.csproj", "{8F499592-7B72-409A-806D-93BBC246B832}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SymmetricTree", "SymmetricTree\SymmetricTree.csproj", "{8F499592-7B72-409A-806D-93BBC246B832}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "559. Maximum Depth of N-ary Tree", "559. Maximum Depth of N-ary Tree", "{9F684793-071B-4C03-B30F-34FAA2392A7A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MaximumDepthOfN-aryTree", "MaximumDepthOfN-aryTree\MaximumDepthOfN-aryTree.csproj", "{99E32CC1-278A-4287-AE94-C1EC13C13A71}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MaximumDepthOfN-aryTree", "MaximumDepthOfN-aryTree\MaximumDepthOfN-aryTree.csproj", "{99E32CC1-278A-4287-AE94-C1EC13C13A71}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MaximumDepthOfNTreeTest", "MaximumDepthOfNTreeTest\MaximumDepthOfNTreeTest.csproj", "{E7EB2122-6292-4254-81FA-7E610B80CCE0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MaximumDepthOfNTreeTest", "MaximumDepthOfNTreeTest\MaximumDepthOfNTreeTest.csproj", "{E7EB2122-6292-4254-81FA-7E610B80CCE0}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "49. Group Anagrams", "49. Group Anagrams", "{44E0EE15-4D2E-43E0-8594-9BC4B7DC400D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GroupAnagrams", "GroupAnagrams\GroupAnagrams.csproj", "{78FF3BAD-CB77-4977-8C27-08FFAED11234}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GroupAnagramsTest", "GroupAnagramsTest\GroupAnagramsTest.csproj", "{3D824161-E351-4425-A855-17414D58DF72}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -733,6 +739,14 @@ Global
 		{E7EB2122-6292-4254-81FA-7E610B80CCE0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E7EB2122-6292-4254-81FA-7E610B80CCE0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E7EB2122-6292-4254-81FA-7E610B80CCE0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{78FF3BAD-CB77-4977-8C27-08FFAED11234}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{78FF3BAD-CB77-4977-8C27-08FFAED11234}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{78FF3BAD-CB77-4977-8C27-08FFAED11234}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{78FF3BAD-CB77-4977-8C27-08FFAED11234}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3D824161-E351-4425-A855-17414D58DF72}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3D824161-E351-4425-A855-17414D58DF72}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3D824161-E351-4425-A855-17414D58DF72}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3D824161-E351-4425-A855-17414D58DF72}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -836,6 +850,8 @@ Global
 		{8F499592-7B72-409A-806D-93BBC246B832} = {135C34DB-02EA-4ABA-8116-48738AF2D387}
 		{99E32CC1-278A-4287-AE94-C1EC13C13A71} = {9F684793-071B-4C03-B30F-34FAA2392A7A}
 		{E7EB2122-6292-4254-81FA-7E610B80CCE0} = {9F684793-071B-4C03-B30F-34FAA2392A7A}
+		{78FF3BAD-CB77-4977-8C27-08FFAED11234} = {44E0EE15-4D2E-43E0-8594-9BC4B7DC400D}
+		{3D824161-E351-4425-A855-17414D58DF72} = {44E0EE15-4D2E-43E0-8594-9BC4B7DC400D}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {7486E12C-0629-4CF7-8F04-D7386134EA3D}
