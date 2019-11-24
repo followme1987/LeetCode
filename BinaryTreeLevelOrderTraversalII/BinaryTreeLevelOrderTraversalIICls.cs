@@ -15,38 +15,40 @@ namespace BinaryTreeLevelOrderTraversalII
         public IList<IList<int>> LevelOrderBottom(TreeNode root)
         {
             if (root == null)
+            {
                 return new List<IList<int>>();
-
+            }
             var q = new Queue<TreeNode>();
-
-            var result = new List<IList<int>>();
-
             q.Enqueue(root);
+            var resultList = new List<IList<int>>();
 
             while (q.Count > 0)
             {
                 var level = new List<int>();
 
-                var queueSize = q.Count;
-
-                for(var i = 0; i < queueSize; i++)
+                int count = q.Count;
+                for (int i = 0; i < count; i++)
                 {
-                    var n = q.Dequeue();
-
-                    level.Add(n.val);
-
-                    if (n.left != null)
-                        q.Enqueue(n.left);
-                    if (n.right != null)
-                        q.Enqueue(n.right);
+                    var treeNode = q.Dequeue();
+                    level.Add(treeNode.val);
+                    if (treeNode.left != null)
+                    {
+                        q.Enqueue(treeNode.left);
+                    }
+                    if (treeNode.right != null)
+                    {
+                        q.Enqueue(treeNode.right);
+                    }
                 }
-
-                result.Add(level);
+                resultList.Add(level);
             }
-
-            result.Reverse();
-
-            return result;
+            resultList.Reverse();
+            return resultList;
         }
     }
 }
+
+
+
+
+
