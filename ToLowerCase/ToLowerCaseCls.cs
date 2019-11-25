@@ -10,7 +10,7 @@ namespace ToLowerCase
             var strB = new StringBuilder();
             foreach (var ch in chArr)
                 if (ch >= 65 && ch <= 90)
-                    strB = strB.Append((char) (ch + 32));
+                    strB = strB.Append((char)(ch + 32));
                 else
                     strB = strB.Append(ch);
 

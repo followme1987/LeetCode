@@ -6,27 +6,17 @@ namespace LongestCommonPrefix
     {
         public string LongestCommonPrefix(string[] strs)
         {
-            if (strs.Length == 0)
-                return "";
-            var firstStrCharArr = strs[0].ToCharArray();
-            var resultCharList = new List<char>();
 
-            for (var i = 0; i < firstStrCharArr.Length; i++)
+            var min = 0;
+            while (strs.Length > 0)
             {
-                var c = firstStrCharArr[i];
-
-                for (var j = 1; j < strs.Length; j++)
-                    if (i >= strs[j].Length || strs[j][i] != c)
-                    {
-                        if (resultCharList.Count == 0)
-                            return "";
-                        return new string(resultCharList.ToArray());
-                    }
-
-                resultCharList.Add(c);
+                foreach (var str in strs)
+                {
+                    if (str.Length == min || str[min] != strs[0][min]) return strs[0].Substring(0, min);
+                }
+                min++;
             }
-
-            return new string(resultCharList.ToArray());
+            return "";
         }
     }
 }

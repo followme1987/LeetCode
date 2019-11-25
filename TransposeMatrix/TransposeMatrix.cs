@@ -4,24 +4,19 @@
     {
         public int[][] Transpose(int[][] A)
         {
-            var count = A[0].Length;
-
-            var result = new int[count][];
-
-            for (var i = 0; i < count; i++)
+            int[][] b = new int[A[0].Length][];
+            for (int i = 0; i < A.Length; i++)
             {
-                result[i] = new int[A.Length];
-
-                var newRow = new int[A.Length];
-
-                for (var j = 0; j < A.Length; j++)
-                    //better performance than result[i][j] = A[j][i]
-                    newRow[j] = A[j][i];
-
-                result[i] = newRow;
+                for (int j = 0; j < A[i].Length; j++)
+                {
+                    if (i == 0)
+                    {
+                        b[j] = new int[A.Length];
+                    }
+                    b[j][i] = A[i][j];
+                }
             }
-
-            return result;
+            return b;
         }
     }
 }
