@@ -381,6 +381,10 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PathSum", "PathSum\PathSum.
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PathSumTest", "PathSumTest\PathSumTest.csproj", "{9C610DE3-98F8-44D1-8827-0913E6073A8B}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "N-aryTreePreorderTraversal", "N-aryTreePreorderTraversal", "{5014D297-FD42-4CAD-8DB8-C9D439D14A2B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "N-aryTreePreorderTraversal", "N-aryTreePreorderTraversal\N-aryTreePreorderTraversal\N-aryTreePreorderTraversal.csproj", "{B9BFBF4A-C181-49B6-9682-C6B87B6382B5}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -843,6 +847,10 @@ Global
 		{9C610DE3-98F8-44D1-8827-0913E6073A8B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9C610DE3-98F8-44D1-8827-0913E6073A8B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9C610DE3-98F8-44D1-8827-0913E6073A8B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B9BFBF4A-C181-49B6-9682-C6B87B6382B5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B9BFBF4A-C181-49B6-9682-C6B87B6382B5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B9BFBF4A-C181-49B6-9682-C6B87B6382B5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B9BFBF4A-C181-49B6-9682-C6B87B6382B5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -962,6 +970,7 @@ Global
 		{6541AC1A-99A8-417C-9717-16E84C13FF14} = {29D09A9D-BFC4-471E-98DA-ABE66944BA57}
 		{18035C13-D7FF-4795-B270-45648F562E80} = {CB15161A-8EB4-44D6-89C9-8F0B62F9338A}
 		{9C610DE3-98F8-44D1-8827-0913E6073A8B} = {CB15161A-8EB4-44D6-89C9-8F0B62F9338A}
+		{B9BFBF4A-C181-49B6-9682-C6B87B6382B5} = {5014D297-FD42-4CAD-8DB8-C9D439D14A2B}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {7486E12C-0629-4CF7-8F04-D7386134EA3D}
