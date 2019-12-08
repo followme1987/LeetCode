@@ -413,10 +413,6 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ValidAnagram", "ValidAnagra
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ValidAnagram.Test", "ValidAnagram\ValidAnagram.Test\ValidAnagram.Test.csproj", "{3878F508-96FC-4D28-8AD0-2889102151DE}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "FindAllAnagrams", "FindAllAnagrams", "{C3778A31-FEA8-4A4A-9108-1A0ECB1B3B82}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FindAllAnagrams", "FindAllAnagrams\FindAllAnagrams\FindAllAnagrams.csproj", "{99126BFD-074E-4C58-BDE4-B3E4E5CA043D}"
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
